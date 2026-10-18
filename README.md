@@ -1,8 +1,6 @@
 # Predicting-Facebook-Post-Engagement
 University of San Diego, MSBA - 502 Analytics Programming I: Final Project\
 
-Dataset: https://archive.ics.uci.edu/dataset/368/facebook+metrics
-
 This project analyzes Facebook post performance using statistical modeling and machine learning techniques. The goal is to identify which factors have the greatest impact on user engagement and interactions, allowing businesses to make data-driven decisions when planning social media content.
 
 The analysis uses both Multiple Linear Regression and Logistic Regression models to examine how content characteristics influence post performance.
@@ -13,31 +11,31 @@ Organizations invest significant resources into social media marketing but often
 
 This project aims to answer the following questions:
 
-What factors most strongly influence Facebook post interactions?
-Which post types perform best?
-Can future engagement be predicted before publishing a post?
-How can marketing teams optimize content to increase audience interaction?
+  What factors most strongly influence Facebook post interactions?
+  Which post types perform best?
+  Can future engagement be predicted before publishing a post?
+  How can marketing teams optimize content to increase audience interaction?
 
-Dataset
+Dataset: https://archive.ics.uci.edu/dataset/368/facebook+metrics
 
 The dataset contains Facebook post information including content characteristics and engagement metrics.
 
-Features Used
-Post Type
-Category
-Month Posted
-Day Posted
-Hour Posted
-Paid Advertisement Status
-Reach
-Impressions
-User Engagement Metrics
-Target Variables
-Linear Regression
-Total Interactions
-Logistic Regression
-High Engagement (Above Median Interactions)
-Low Engagement (Below Median Interactions)
+  Features Used
+  Post Type
+  Category
+  Month Posted
+  Day Posted
+  Hour Posted
+  Paid Advertisement Status
+  Reach
+  Impressions
+  User Engagement Metrics
+  Target Variables
+  Linear Regression
+  Total Interactions
+  Logistic Regression
+  High Engagement (Above Median Interactions)
+  Low Engagement (Below Median Interactions)
 
 Methodology
 1. Data Preparation
@@ -46,23 +44,21 @@ Converted categorical variables into dummy variables
 Checked variable data types
 Split data into training and testing datasets
 
-3. Multiple Linear Regression
+2. Multiple Linear Regression
 A multiple linear regression model was developed to predict the number of interactions a Facebook post receives.
-
-Objectives
-Identify significant engagement drivers
-Quantify the effect of each predictor
-Generate interaction forecasts and prediction intervals
+  Objectives:
+  Identify significant engagement drivers
+  Quantify the effect of each predictor
+  Generate interaction forecasts and prediction intervals
 
 3. Logistic Regression
 A logistic regression model was developed to classify posts as either:
 High Engagement
 Low Engagement
-
-Objectives
-Estimate the probability of a successful post
-Determine the factors that increase the likelihood of high engagement
-Support content strategy decisions
+  Objectives:
+  Estimate the probability of a successful post
+  Determine the factors that increase the likelihood of high engagement
+  Support content strategy decisions
 
 Key Findings
 Multiple Linear Regression
